@@ -485,7 +485,7 @@
             };
             sessionStorage.setItem('pmm_refueler_session', JSON.stringify(session));
         } else {
-            window.location.href = 'refueler_login.html';
+            window.location.href = 'index.html';
             return false;
         }
 
@@ -508,7 +508,7 @@
 
     function logoutRefueler() {
         sessionStorage.removeItem('pmm_refueler_session');
-        window.location.href = 'refueler_login.html';
+        window.location.href = 'index.html.html';
     }
 
     function calculatePeriod(dateStr) {
